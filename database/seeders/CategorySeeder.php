@@ -17,35 +17,35 @@ class CategorySeeder extends Seeder
         DB::table('categories')->insert([
             [
                 'category' => 'Adventure', 
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Business',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Comedy',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Drama',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Horror',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Politics',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Religion',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ],
             [
                 'category' => 'Romance',
-                'remarks' => '5'
+                'remarks' => 'lorem'
             ]
         ]);
     }
